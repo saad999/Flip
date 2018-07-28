@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Final Step"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#555c5b">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/layer2" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#626562"
+                android:gravity="center"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:text="Email Address"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/emailsu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+
+                >
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#555c5b">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/layer4" />
+                </FrameLayout>
+
+
+                <TextView
+                    android:layout_width="74dp"
+                    android:layout_height="match_parent"
+                    android:background="#626562"
+                    android:gravity="center"
+                    android:hint="Password"
+                    android:singleLine="true"
+                    android:textColor="#fff"
+                    android:textColorHint="#fff"
+                    android:textSize="10dp" />
+                <TextView
+                    android:id="@+id/passu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="#fff"
+                    android:textSize="14dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#555c5b">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_phone" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="74dp"
+                android:layout_height="match_parent"
+                android:background="#626562"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Number"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/mobsu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Signup"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="#626562"
+                    android:gravity="center"
+                    android:text="Sign Up"
+                    android:textColor="#fff"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
